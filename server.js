@@ -24,9 +24,9 @@ app.use((req, res, next) =>{
 
 
 // //If you want to stop user from accessing the system
- app.use((req, res, next) =>{
-   res.render('maintenance.hbs');
- });
+//  app.use((req, res, next) =>{
+//    res.render('maintenance.hbs');
+//  });
 
 app.use(express.static(__dirname + '/Public'));
 
